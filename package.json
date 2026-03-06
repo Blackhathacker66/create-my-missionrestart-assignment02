@@ -7,7 +7,7 @@
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
+    "deploy:surge": "npm run build && copy dist\\index.html dist\\200.html && surge dist https://react-ticket-system-113322445566.surge.sh",
     "lint": "echo 'Linting skipped for pure JS'"
   },
   "dependencies": {
