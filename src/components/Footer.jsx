@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-white text-xl font-bold mb-4">CS — Ticket System</h3>
             <p className="text-sm leading-relaxed text-gray-500 pr-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Empowering your support team with a streamlined, efficient, and intuitive ticketing system. We help you resolve customer issues faster, track progress in real-time, and deliver exceptional service every single day.
             </p>
           </div>
           

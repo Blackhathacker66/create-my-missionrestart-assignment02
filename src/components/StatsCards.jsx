@@ -4,7 +4,24 @@ export default function StatsCards({ inProgressCount, resolvedCount }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
       <div className="bg-gradient-to-br from-[#8B5CF6] to-[#6366F1] rounded-xl p-10 flex flex-col items-center justify-center text-white shadow-lg relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent"></div>
+        <div 
+          className="absolute inset-0 opacity-30 mix-blend-screen bg-no-repeat"
+          style={{ 
+            backgroundImage: `url('https://storage.googleapis.com/aistudio-user-uploads-prod/071912891280-z8803o4q.png')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'left top',
+            filter: 'invert(1)'
+          }}
+        ></div>
+        <div 
+          className="absolute inset-0 opacity-30 mix-blend-screen bg-no-repeat"
+          style={{ 
+            backgroundImage: `url('https://storage.googleapis.com/aistudio-user-uploads-prod/071912891280-j32e600z.png')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'right top',
+            filter: 'invert(1)'
+          }}
+        ></div>
         <h2 className="text-xl font-medium mb-2 relative z-10">In-Progress</h2>
         <p className="text-6xl font-bold relative z-10">{inProgressCount}</p>
       </div>
